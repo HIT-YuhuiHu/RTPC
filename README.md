@@ -1,2 +1,2 @@
 # RTPC
-RTPC: Reinforcement learning-based Trajectory Planning with Continuous pose representation for free-floating space manipulator
+RTPC: Deep Reinforcement Learning-based Trajectory Planning with Continuous Pose Representation for 6-DoF Free-floating Space Robot
