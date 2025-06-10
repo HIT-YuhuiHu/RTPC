@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.6.0-1-g15f4949  Build Version: 1.6.7594.29634
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="mug">
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <mass
+        value="0.25" />
+      <inertia
+        ixx="0.00067098"
+        ixy="3.9108E-21"
+        ixz="1.6836E-06"
+        iyy="0.00070216"
+        iyz="1.3147E-20"
+        izz="0.0004113" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="1.5707963267948966 0 3.141592653589793" />
+      <geometry>
+        <mesh
+          filename="../meshes/mug/mug.STL" />
+      </geometry>
+      <material
+        name="ceramics">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <!-- <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="../meshes/mug/mug.STL" />
+      </geometry>
+    </collision> -->
+  </link>
+</robot>
